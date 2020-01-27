@@ -11,3 +11,44 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#garis {
+  width: 280px;
+  border-width: 5px;
+  border-color: royalblue;
+}
+#garis2 {
+  width: 120px;
+  border-width: 5px;
+  border-color: royalblue;
+}
+#garis3 {
+  width: 200px;
+  border-width: 5px;
+  border-color: royalblue;
+}
+#link {
+  text-decoration: none;
+  color: inherit;
+}
+#card {
+  max-height: 110%;
+}
+.menu:hover {
+  color: #000080 !important;
+  display: flex;
+}
+.menu:active {
+  color: #000080 !important;
+}
+#judul {
+  margin-top: 50px;
+}
+#title {
+  font-size: 18px;
+}
+.abs-center-x {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
